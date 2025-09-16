@@ -1,0 +1,58 @@
+projects=(
+  hello_world
+  file_counter
+  word_frequency
+  bulk_file_renamer
+  directory_size_reporter
+  disk_space_monitor
+  find_largest_n_files
+  recent_file_finder
+  file_backup_script
+  archive_and_rotate_logs
+  grep_wrapper
+  csv_column_extractor
+  json_pretty_printer
+  markdown_word_counter
+  remove_duplicates
+  spell_checker
+  merge_text_files
+  simple_diff_wrapper
+  replace_string_in_files
+  generate_random_passwords
+  show_cpu_and_mem_stats
+  process_finder
+  network_connection_viewer
+  uptime_and_load_average
+  logged_in_user_tracker
+  battery_status_checker
+  ip_and_hostname_info
+  port_scanner
+  simple_system_report
+  disk_io_monitor
+  timer_stopwatch
+  countdown_with_beep
+  weather_fetcher
+  stock_price_checker
+  qr_code_generator
+  image_converter
+  clipboard_manager
+  simple_calculator
+  random_joke_fetcher
+  file_integrity_checker
+  auto_git_commit_and_push
+  simple_todo_cli
+  reminder_alarm
+  wallpaper_switcher
+  url_pinger
+  download_youtube_audio
+  rss_feed_fetcher
+  email_sender
+  chatbot_cli
+  static_site_generator
+  backup_photos_to_cloud
+  end_of_year_cleanup
+)
+for p in "${projects[@]}"; do
+    echo "Making ./$p/$p.sh"
+    touch "./$p/$p.sh"
+done

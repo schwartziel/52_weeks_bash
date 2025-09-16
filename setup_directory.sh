@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 projects=(
   hello_world
@@ -57,4 +57,3 @@ projects=(
 for p in "${projects[@]}"; do
   mkdir "$p"
 done
-
